@@ -522,6 +522,45 @@ footer p {
     opacity: 0.9;
 }
 
+/* Container with Sidebar */
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Fixed Ads */
+.fixed-ad {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+
+.left-ad {
+    left: 20px;
+}
+
+.right-ad {
+    right: 20px;
+}
+
+.fixed-ad ins {
+    display: block;
+    background: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: var(--card-shadow);
+}
+
+/* Main Content */
+.main-container main {
+    flex: 1;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     header {
@@ -530,6 +569,15 @@ footer p {
 
     body {
         font-size: 16px;
+    }
+
+    .main-container {
+        padding: 20px 15px;
+    }
+
+    /* Hide fixed ads on mobile */
+    .fixed-ad {
+        display: none;
     }
 
     .character {
