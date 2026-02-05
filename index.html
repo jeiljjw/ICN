@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인천공항 여행 마스터 | ICN Travel Mastery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="character">
+                <span class="character-face">✈️</span>
+                <div class="character-name">비행이</div>
+            </div>
+            <h1>🛫 인천공항 여행 마스터</h1>
+            <p class="subtitle">인천국제공항 이용 완벽 가이드 ✨</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <button class="nav-btn active" data-section="intro">🏠 홈</button>
+            <button class="nav-btn" data-section="checkin">🛫 체크인</button>
+            <button class="nav-btn" data-section="security">🔒 보안검사</button>
+            <button class="nav-btn" data-section="terminal">🏢 터미널</button>
+            <button class="nav-btn" data-section="transport">🚇 교통</button>
+            <button class="nav-btn" data-section="tips">💡 꿀팁</button>
+            <button class="nav-btn" data-section="faq">❓ FAQ</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Intro Section -->
+        <section id="intro" class="section active">
+            <div class="character-message">
+                <p>"안녕 난 비행이야! ✈️ 인천공항 여행을 잘하고 싶으면 따라와봐!"</p>
+            </div>
+
+            <div class="grid">
+                <div class="card" data-section="checkin">
+                    <div class="card-icon">📋</div>
+                    <h2>체크인 가이드</h2>
+                    <p>탑승권 발급부터 짐 맡기기까지! 성공적인 여행의 시작을 알려드려요.</p>
+                    <span class="emoji-badge">⏰ 2-3시간 전</span>
+                    <span class="emoji-badge">📱 온라인 사전</span>
+                </div>
+
+                <div class="card" data-section="security">
+                    <div class="card-icon">🔦</div>
+                    <h2>보안검사 통과</h2>
+                    <p>금속탐지, X-ray 통과의 꿀팁! 신속하게 통과하는 방법!</p>
+                    <span class="emoji-badge">👟 신발벗기</span>
+                    <span class="emoji-badge">💻 전자기기</span>
+                </div>
+
+                <div class="card" data-section="terminal">
+                    <div class="card-icon">🏢</div>
+                    <h2>터미널 이용법</h2>
+                    <p>제1·제2터미널 완전 정복! 면세점, 식당, 라운지 활용법!</p>
+                    <span class="emoji-badge">🛍️ 면세점</span>
+                    <span class="emoji-badge">🍜 식당</span>
+                </div>
+
+                <div class="card" data-section="transport">
+                    <div class="card-icon">🚇</div>
+                    <h2>교통 안내</h2>
+                    <p>리무진, 직통버스, 지하철, 택시까지 완전 정리!</p>
+                    <span class="emoji-badge">🚌 리무진버스</span>
+                    <span class="emoji-badge">🚊 KTX</span>
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <h3>💡 비행이의 핵심 팁!</h3>
+                <ul>
+                    <li><strong>여권과 탑승권을 항상 손에 들고 다니세요!</strong></li>
+                    <li>인천공항은 정말 커요! 충분한 시간을 여유 있게 준비하세요.</li>
+                    <li>핸드폰을 미리 FULL 충전 해두세요 (충전소도 있어요!)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Check-in Section -->
+        <section id="checkin" class="section">
+            <div class="character-message">
+                <p>"체크인이 뭐야? 등록이란 거야! 시작이 반이라고! 같이 해보자고! 📋"</p>
+            </div>
+
+            <div class="card">
+                <h2>📋 체크인 프로세스</h2>
+                <div class="steps">
+                    <div class="step">
+                        <h3>1단계: 항공사 카운터 찾기</h3>
+                        <p>탑승권에 적힌 게이트 번호를 확인하고 해당 항공사 카운터로 이동하세요. 제1터미널은 J~A, 제2터미널은 C~D입니다.</p>
+                    </div>
+                    <div class="step">
+                        <h3>2단계: 탑승권 발급</h3>
+                        <p>여권과 예약번호(Confirmation Number)를 제시하고 탑승권을 발급받으세요. 짐을 맡길 경우 이때 말씀해요!</p>
+                    </div>
+                    <div class="step">
+                        <h3>3단계: 짐 맡기기</h3>
+                        <p>여행 일정과 항공사에 따라 무료 수하물 한도가 달라져요. 보통 23kg이 기준이에요!</p>
+                    </div>
+                    <div class="step">
+                        <h3>4단계: 보안검사 통과</h3>
+                        <p>탑승권을 스캔하고 X-ray 통로로 들어가세요. 여권과 탑승권은 계속 들고 있어야 해요!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>⏰ 최적 도착 시간</h2>
+                <div class="terminal-info">
+                    <div class="terminal-card">
+                        <h4>국내선</h4>
+                        <p>출발 2시간 전 도착</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>국제선</h4>
+                        <p>출발 3시간 전 도착</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>성수기</h4>
+                        <p>출발 4시간 전 도착</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h3>⚠️ 주의사항!</h3>
+                <ul>
+                    <li><strong>액체 제한</strong>: 100ml 이하 액체만 가지고 가세요!</li>
+                    <li><strong>배터리</strong>: 리튬배터리는 짐에 넣지 마세요!</li>
+                    <li><strong>여권</strong>: 만료 6개월 이상 남았는지 확인!</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h3>✅ 체크인 완료 후 할 일</h3>
+                <ul>
+                    <li>탑승권에 적힌 <strong>게이트 번호</strong>를 확인하세요!</li>
+                    <li>화면에 뜨는 <strong>출발 시간</strong>을 확인하세요!</li>
+                    <li>편의점에서 간단한 간식을 사가세요!</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Security Section -->
+        <section id="security" class="section">
+            <div class="character-message">
+                <p>"보안검사는 무서워하지 마세요! 🔦 간단한 팁만 알면 순식간에 통과해!"</p>
+            </div>
+
+            <div class="card">
+                <h2>🔦 보안검사 통과 전략</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>1. 사전 준비</h4>
+                        <p>자켓, 벨트, 시계, 동전을 미리벗어 주머니에 넣으세요. 신발도 벗어야 할 수 있어요!</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>2. 전자기기 분리</h4>
+                        <p>노트북, 태블릿, 충전기는 가방에서 꺼내서 별도 트레이에 넣어세요!</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>3. 액체류 준비</h4>
+                        <p>100ml 이하 용기에 담아 1L 지퍼백에 넣어세요. 젤, 크림, 로션 모두 해당!</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>4. 금속탐지 통과</h4>
+                        <p>탐지기에 서면 양손을 들어요. 벨트가 울리면 별도 검사를 받게 돼요.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>5. X-ray</h4>
+                        <p>가방을 컨베이어 벨트에 올리고 안전하게 통과하세요!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <h3>💡 비행이의 통과 꿀팁!</h3>
+                <ul>
+                    <li><strong>FAST TRACK</strong>: 특정 신용카드/회원권 소지자는 빠른 통로 이용 가능!</li>
+                    <li><strong>시간 조절</strong>: 아침 6-8시, 저녁 6-8시가 가장 붐빔!</li>
+                    <li><strong>가족/장애인</strong>: 별도 창구로 신속하게 이용 가능!</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🚫 반납해야 하는 물건들</h2>
+                <table class="info-table">
+                    <thead>
+                        <tr>
+                            <th>물품</th>
+                            <th>규정</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>🔪 날카로운 물건</td>
+                            <td>손톱깎이, 가위, 나이프 전부 반납!</td>
+                        </tr>
+                        <tr>
+                            <td>💨 스프레이</td>
+                            <td>500ml 이상 스프레이는 화물로!</td>
+                        </tr>
+                        <tr>
+                            <td>🔥 라이터</td>
+                            <td>Gasp 라이터만 허용, 일반 라이터 반납!</td>
+                        </tr>
+                        <tr>
+                            <td>🔋 휴대용 충전기</td>
+                            <td>리튬배터리 짐에 넣지 마세요!</td>
+                        </tr>
+                        <tr>
+                            <td>💧 액체</td>
+                            <td>100ml 이상은 반납 또는 폐기!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Terminal Section -->
+        <section id="terminal" class="section">
+            <div class="character-message">
+                <p>"인천공항엔 면세점이 정말 많아! 🛍️ 쇼핑과 미식을 즐기며 남는 시간 활용하자!"</p>
+            </div>
+
+            <div class="card">
+                <h2>🏢 터미널 구조 안내</h2>
+                <table class="info-table">
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>제1터미널</th>
+                            <th>제2터미널</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>항공사</strong></td>
+                            <td>대한항공, 아시아나, Lufthansa, Air France 등</td>
+                            <td>진에어, 에어서울, 대한항공(일부)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>위치</strong></td>
+                            <td>티엔터미널 동쪽</td>
+                            <td>제1터미널 건물 서쪽</td>
+                        </tr>
+                        <tr>
+                            <td><strong>환승</strong></td>
+                            <td>무궁화열차 또는 셔틀버스</td>
+                            <td>무궁화열차 또는 셔틀버스</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card">
+                <h2>🛍️ 면세점 활용법</h2>
+                <div class="tip-box">
+                    <h3>💄 면세점 장점</h3>
+                    <ul>
+                        <li><strong>가격</strong>: 국내 대비 10~40% 저렴!</li>
+                        <li><strong>브랜드</strong>: 샤넬, 디올, 위스키, 껌 등 다양!</li>
+                        <li><strong>포인트</strong>: 카드사 포인트도 적립 가능!</li>
+                    </ul>
+                </div>
+                <div class="success-box">
+                    <h3>✅ 면세점 쇼핑 팁</h3>
+                    <ul>
+                        <li><strong>온라인 사전 주문</strong>: 시간 절약, 재고 보장!</li>
+                        <li><strong>부가세 환급</strong>: 관광객은 부가세 환급 가능!</li>
+                        <li><strong>구매 한도</strong>: 한국 출발 시 $6,000 한도!</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>🍜 식당가 & 라운지</h2>
+                <div class="terminal-info">
+                    <div class="terminal-card">
+                        <h4>한식 🍚</h4>
+                        <p>본죽, 순대국, 비빔밥</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>중식 🥟</h4>
+                        <p>탕수육, 짜장면, 짬뽕</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>카페 ☕</h4>
+                        <p>투썸플레이스, 할리스</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>패스트푸드 🍔</h4>
+                        <p>맥도날드, 버거킹</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h3>⚠️ 면세점 픽업 알림!</h3>
+                <ul>
+                    <li><strong>픽업 장소</strong>: 출국심사 후 면세점 픽업!</li>
+                    <li><strong>시간 확인</strong>: 픽업 시간은 출발 1시간까지!</li>
+                    <li><strong>구매 증빙</strong>: 여권과 탑승권 필수!</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Transport Section -->
+        <section id="transport" class="section">
+            <div class="character-message">
+                <p>"인천공항까지는 어떻게 와? 여러 가지 방법이 있어! 다양한 교통수단을 알려줄게! 🚇"</p>
+            </div>
+
+            <div class="card">
+                <h2>🚇 철도 및 지하철 교통</h2>
+                <table class="info-table">
+                    <thead>
+                        <tr>
+                            <th>수단</th>
+                            <th>도착지</th>
+                            <th>소요시간</th>
+                            <th>요금</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>직통버스</strong></td>
+                            <td>서울 전역</td>
+                            <td>60-90분</td>
+                            <td>₩15,000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>리무진버스</strong></td>
+                            <td>서울,수도권</td>
+                            <td>60-100분</td>
+                            <td>₩7,000-17,000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>KTX</strong></td>
+                            <td>검암역환승</td>
+                            <td>10분</td>
+                            <td>₩4,000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>택시</strong></td>
+                            <td>서울전역</td>
+                            <td>40-90분</td>
+                            <td>₩50,000-80,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card">
+                <h2>🚌 주요 리무진 노선</h2>
+                <div class="terminal-info">
+                    <div class="terminal-card">
+                        <h4>6001</h4>
+                        <p>서울역 ⟺ 공항</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>6002</h4>
+                        <p>잠실 ⟺ 공항</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>6003</h4>
+                        <p>영등포 ⟺ 공항</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>6005</h4>
+                        <p>건대 ⟺ 공항</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <h3>💡 교통 꿀팁!</h3>
+                <ul>
+                    <li><strong>예약</strong>: 리무진은 앱으로 사전 예약 가능!</li>
+                    <li><strong>첫차/막차</strong>: 첫차 5시, 막차 23시 기준!</li>
+                    <li><strong>심야</strong>: 심야에는 공항직행택시가 있어요!</li>
+                    <li><strong>환승</strong>: T1↔T2 간 무궁화호 무료 이용!</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🚗 면허환전 & 렌트</h2>
+                <p>국제운전면허로 렌트카 이용 가능! (ajima,avis,heviz 등)</p>
+                <div class="success-box">
+                    <h3>✅ 렌트 팁</h3>
+                    <ul>
+                        <li><strong>예약</strong>: 한국은 예약 필수!</li>
+                        <li><strong>나이</strong>: 보통 21세 이상!</li>
+                        <li><strong>GPS</strong>: 한국어 GPS 필수!</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips Section -->
+        <section id="tips" class="section">
+            <div class="character-message">
+                <p>"여행 성공의 비밀은 여기 있어! 💡 비행이만의 꿀팁 대공개!"</p>
+            </div>
+
+            <div class="card">
+                <h2>🎒 출국 전 체크리스트</h2>
+                <div class="steps">
+                    <div class="step">
+                        <h3>여권 확인</h3>
+                        <p>만료 6개월 이상 남았는지, 깨짐이나 훼손은 없는지 확인!</p>
+                    </div>
+                    <div class="step">
+                        <h3>비자 확인</h3>
+                        <p>목적지 국가 비자가 필요한지 확인! 전자비자 미리 발급!</p>
+                    </div>
+                    <div class="step">
+                        <h3>여행보험</h3>
+                        <p>해외여행보험 필수! 해외의료비 정말 비싸요!</p>
+                    </div>
+                    <div class="step">
+                        <h3>환전</h3>
+                        <p>미국달러는 필수! 도착지 화폐도 조금 준비!</p>
+                    </div>
+                    <div class="step">
+                        <h3>데이터 로밍</h3>
+                        <p>와이파이 에그 또는 SIM 사전 구매!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>✈️ 비행 중 팁</h2>
+                <div class="tip-box">
+                    <h3>💤 시차 적응</h3>
+                    <ul>
+                        <li>도착 당일 낮에는 무리하게 자지 마세요!</li>
+                        <li>현지 시간에 맞춰 식사!</li>
+                        <li>카페인, 술은 피하세요!</li>
+                    </ul>
+                </div>
+                <div class="success-box">
+                    <h3>✅ 항공사 서비스 활용</h3>
+                    <ul>
+                        <li><strong>기내식</strong>: 특별식 사전 예약 가능!</li>
+                        <li><strong>좌석</strong>: 온라인 사전 좌석지정 무료!</li>
+                        <li><strong>라운지</strong>: 카드사/회원권으로 무료 이용!</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📱 필수 앱</h2>
+                <div class="terminal-info">
+                    <div class="terminal-card">
+                        <h4>✈️ 항공 앱</h4>
+                        <p>탑승권, 실시간 정보</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>🗺️ 네이버 지도</h4>
+                        <p>오프라인 지도 활용</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>🚕 카카오 T</h4>
+                        <p>택시 호출 (해외)</p>
+                    </div>
+                    <div class="terminal-card">
+                        <h4>💱 환율 계산기</h4>
+                        <p>국제환율 확인</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h3>⚠️ 초보자 탈출법!</h3>
+                <ul>
+                    <li><strong>혼란</strong>: 공항이 너무 커요! 항공사 직원에게 도움을 요청!</li>
+                    <li><strong>지각</strong>: 늦었으면 뛰지 말고 바로 직원에게 말씀!</li>
+                    <li><strong>분실물</strong>: 물건을 잃어버렸어요! 공항 분실물 센터로!</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section">
+            <div class="character-message">
+                <p>"궁금한 것 있으면 물어봐! ❓ 비행이가 다 알려줄게!"</p>
+            </div>
+
+            <div class="card">
+                <h2>❓ 자주 묻는 질문</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: 인천공항에서 짐을 어디에서 찾나요?</div>
+                    <div class="faq-answer">
+                        <strong>A:</strong> 도착층 (1층) 수령대(Baggage Claim) 홀에서 찾습니다. 터미널 입구의 대형 화면에 해당 항공편의 짐 컨베이어 번호가 나와요!
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 환승 시간은 얼마나 남겨야 하나요?</div>
+                    <div class="faq-answer">
+                        <strong>A:</strong> 국내선 → 국내선: 30분 / 국내선 → 국제선: 60분 / 국제선 → 국제선: 90분 이상 추천합니다!
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 면세점에서 산 물건을 짐에 넣어도 되나요?</div>
+                    <div class="faq-answer">
+                        <strong>A:</strong> 네, 가능합니다! 면세점에서 구매 시 밀봉된 봉투로 제공됩니다. 도착 전에는 절대 봉지를 열지 마세요!
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 공항 안에 호텔이 있나요?</div>
+                    <div class="faq-answer">
+                        <strong>A:</strong> 네, 있습니다! 제1터미널 내 "다라니"호텔과 스위스호텔이 연결되어 있어요. 새벽 비행기 이용할 때 매우 편리해요!
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 짐이 못 찾으면 어떻게 해야 하나요?</div>
+                    <div class="faq-answer">
+                        <strong>A:</strong> 터미널 내 Lost & Found 센터 (1층) 또는 항공사 카운터로 문의하세요! 연락처: 032-741-2000
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 비행기가 지연되면 어떻게 해야 하나요?</div>
+                    <div class="faq-answer">
+                        <strong>A:</strong> 항공사 앱이나 화면에서 최신 정보를 확인하세요. 보상 식사권이나 숙박권이 제공될 수 있어요!
+                    </div>
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <h3>💡 도움이 필요한 곳!</h3>
+                <ul>
+                    <li><strong>관광안내소</strong>: 제1터미널 1층, 제2터미널 지하1층</li>
+                    <li><strong>투어리스트 인포</strong>: 한국관광공사 지정환안내소</li>
+                    <li><strong>긴급전화</strong>: 032-741-2000 (인천공항 고객센터)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>🛫 인천공항 여행 마스터 | Made with 💜 by 비행이 ✈️</p>
+        <p style="margin-top: 10px; opacity: 0.7;">출발 전 확인, 도착 후 즐거움!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
